@@ -1,0 +1,208 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0p!important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #1F07B2;
+    height: 100px;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.div-logo {
+    float: left;
+    padding: 23px;
+    width: 70%;
+}
+
+.div-redes ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.div-redes {
+    width: 15%;
+    float: right;
+    padding: 23px;
+
+}
+
+.div-menu2 {
+    background-color: rgb(255,212,12);
+    width: 50%;
+    margin: 0 auto;
+    height: 60px;
+    padding: 10px;
+}
+
+.menu-urls {
+    position: relative;
+    background-color: rgb(255,212,12);
+    border-bottom: 3px solid #6797d4;
+    width: 100%;
+    height: 80px;
+}
+
+.menu-nav ul li {
+    display: inline-block;
+    color: #010440;
+    margin-left: 70px;
+    padding: 5px;
+    height: 100%;
+}
+
+.menu-nav ul li ul li {
+    display: grid;
+}
+
+.menu-nav ul li ul {
+    padding: 0;
+ }
+
+.menu-nav ul ul {
+    display: none;
+}
+
+.menu-nav ul li:hover > ul {
+    display: block;
+}
+
+.menu-nav ul li:hover {
+    border-bottom: 1px solid #030a8d;
+}
+
+.menu-nav ul li ul:hover {
+    border-bottom: transparent;
+}
+
+.menu-nav ul li ul li:hover {
+    border-bottom: transparent;
+}
+
+.menu-nav ul li a:hover {
+    color: #030a8d;
+}
+
+.menu-nav ul li a {
+    color: #030a8d;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.container {
+    position: absolute;
+    background-color: white;
+    max-width: 100px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    position: relative;
+    top: 20%;
+    left: 0;
+    justify-content: center;
+}
+
+.menu-nav ul li {
+    color: #030a8d;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu-nav {
+    position: absolute;
+    width: 1100px;
+    left: 25.3rem;
+    float: left;
+    margin: auto;
+}
+
+.cl100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    background-color: transparent;
+    background-image: url('../img/seta-esquerda.png');
+    position: absolute;
+    z-index: 9;
+    top: 55%;
+    left: 10%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    background-color: transparent;
+    background-image: url('../img/seta-direita.png');
+    position: absolute;
+    z-index: 9;
+    top: 55%;
+    right: 10%;
+}
+
+.slides {
+    position: relative;
+    width: 100%;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 2px solid white;
+    width: 17px;
+    height: 17px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 93%;
+}
+
+.slick-dots li {
+    display: inline-block;
+    padding-left: 25px;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 8%;
+}
+
+li.slick-active button{
+    background-color: yellow;
+}
+
+.div-redes ul li a {
+    color: white;
+    margin: 0 auto;
+}
+
+.div-redes ul li a:hover {
+    color: yellow;
+}

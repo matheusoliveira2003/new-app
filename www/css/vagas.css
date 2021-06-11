@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+body {
+    background: linear-gradient(to bottom, #ffe600, #fff066);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-bottom: 100%;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #1F07B2;
+    height: 100px;
+}
+
+main {
+    margin: 0 auto;
+    width: 1300px;
+    position: relative;
+}
+
+.div-logo {
+    float: left;
+    padding: 23px;
+    width: 70%;
+}
+
+.div-redes ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 1rem 0 0 1.5rem;
+}
+
+.div-redes {
+    width: 15%;
+    float: right;
+    padding: 23px;
+
+}
+
+.div-redes ul {
+    padding: 0;
+}
+
+.div-menu2 {
+    background-color: rgb(255,212,12);
+    width: 50%;
+    margin: 0 auto;
+    height: 60px;
+    padding: 10px;
+}
+
+.menu-urls {
+    background-color: rgb(255,212,12);
+    border-bottom: 3px solid #6797d4;
+    width: 100%;
+    height: 80px;
+}
+
+.menu-nav ul li {
+    display: inline-block;
+    color: #010440;
+    margin-left: 70px;
+    padding: 5px;
+    height: 100%;
+}
+
+.menu-nav ul li:hover {
+    border-bottom: 2px solid #030a8d;
+}
+
+.menu-nav ul li a:hover {
+    color: #030a8d;
+}
+
+.menu-nav ul li a {
+    color: #030a8d;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu-nav ul {
+    padding: 0.8rem 0 1rem 1.5rem;
+}
+
+.menu-nav {
+    position: absolute;
+    width: 1100px;
+    float: left;
+    left: 400px;
+}
+
+.slot {
+    background-color: #1e07b2;
+    width: 103%;
+    height: 9.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1.5rem;
+}
+
+.vagas h1 {
+    color: #1F07B2;
+    padding: 1.5rem 0 0 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.button {
+    display: flex;
+    padding: 1.5rem 0 1.5rem 33.7rem;
+}
+
+th {
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 18.12em;
+    height: 7.5em;
+    padding-left: 0;
+    margin: 1rem;
+    align-content: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+
+th:first-child {
+    margin-left: 2rem;
+}
+
+th h4 {
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+    color: #c5b203;
+    margin: 0.2rem 0 0 0.8rem;
+}
+
+.div-redes ul li a {
+    color: white;
+    margin: 0 auto;
+}
+
+.div-redes ul li a:hover {
+    color: yellow;
+}
+
+.title-bar {
+    background-color: #1F07B2;
+    width: 103%;
+    height: 3rem;
+    margin: 0 0 0.5rem 0;
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.nomeEmp {
+    float: left;
+    background-color: white;
+    width: 25%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.vaga {
+    float: left;
+    background-color: white;
+    width: 25%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.reqVaga {
+    float: left;
+    background-color: white;
+    width: 25%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.local {
+    float: left;
+    background-color: white;
+    width: 25%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.title-nomeEmp {
+    font-family: fantasy;
+    margin: 0.2rem 0 0 5.7rem;
+}
+
+.title-vaga {
+    font-family: fantasy;
+    margin: 0.2rem 0 0 9rem;
+}
+
+.title-reqVaga {
+    font-family: fantasy;
+    margin: 0.2rem 0 0 4.7rem;
+}
+
+.title-local {
+    font-family: fantasy;
+    margin: 0.2rem 0 0 8rem;
+}
